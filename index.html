@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PINOY 365 - Official Slot Platform</title>
+
+<!-- Meta Pixel Code (KEEP YOUR SAME PIXEL ID) -->
+
+
+<style>
+:root{
+  --gold1:#ffd700;
+  --gold2:#ffae00;
+  --bg1:#14002e;
+  --bg2:#1d003f;
+  --neon:#00ffe7;
+}
+
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(180deg,var(--bg1),var(--bg2));
+  color:#fff;
+  text-align:center;
+}
+
+.center-wrap{
+  display:flex;
+  justify-content:center;
+  padding:40px 0;
+}
+
+.wrap{
+  max-width:400px;
+  width:90%;
+  background:#0f001f;
+  border-radius:20px;
+  padding:25px 20px 30px;
+  box-shadow:0 0 25px rgba(255,215,0,0.3);
+  border:2px solid rgba(255,215,0,0.4);
+}
+
+.bonus-banner{
+  background:linear-gradient(90deg,var(--gold1),var(--gold2));
+  color:#000;
+  font-weight:900;
+  padding:12px;
+  border-radius:12px;
+  margin-bottom:18px;
+  font-size:16px;
+}
+
+.logo-box{
+  width:160px;
+  height:160px;
+  margin:15px auto;
+  border-radius:20px;
+  overflow:hidden;
+  border:3px solid var(--gold1);
+}
+.logo-box img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+h1{
+  font-size:26px;
+  margin:8px 0;
+  font-weight:900;
+  color:var(--gold1);
+}
+
+.subtitle{
+  font-size:14px;
+  opacity:0.8;
+  margin-bottom:20px;
+}
+
+.pill{
+  display:block;
+  width:100%;
+  padding:18px 0;
+  margin:14px 0;
+  border-radius:50px;
+  background:linear-gradient(90deg,var(--gold1),var(--gold2));
+  color:#000;
+  font-weight:900;
+  font-size:18px;
+  text-decoration:none;
+  box-shadow:0 0 15px rgba(255,215,0,0.6);
+  transition:0.3s;
+}
+.pill:hover{
+  transform:scale(1.05);
+}
+
+.timer{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin:20px 0;
+}
+.cell{
+  background:#1a0033;
+  padding:12px 16px;
+  border-radius:10px;
+  width:70px;
+}
+.num{
+  font-size:26px;
+  font-weight:800;
+  color:var(--neon);
+}
+.lab{
+  font-size:12px;
+  color:#ff4d6d;
+  margin-top:4px;
+  font-weight:700;
+}
+
+.features{
+  margin-top:15px;
+}
+.feature-item{
+  margin:6px 0;
+  font-weight:700;
+  opacity:0.85;
+}
+
+.contact-section{
+  margin-top:30px;
+  padding:25px;
+  background:#0f001f;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.contact-btn{
+  background:linear-gradient(90deg,var(--gold1),var(--gold2));
+  color:#000;
+  padding:10px 20px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:800;
+}
+
+</style>
+
+<script>
+let m=30,s=0;
+setInterval(()=>{
+  document.getElementById("min").innerText=String(m).padStart(2,'0');
+  document.getElementById("sec").innerText=String(s).padStart(2,'0');
+  if(s===0){ if(m===0)return; m--; s=59; } else s--;
+},1000);
+</script>
+</head>
+
+<body>
+
+<div class="center-wrap">
+  <div class="wrap">
+
+    <div class="bonus-banner">
+      🎰 SIGN UP BONUS ₱88 – ₱200 FREE 🎁
+    </div>
+
+    <div class="logo-box">
+      <img src="rounded-image.png" alt="Pinoy 365">
+    </div>
+
+    <h1>PINOY 365 🇵🇭</h1>
+    <div class="subtitle">
+      Official Filipino Slot Gaming Platform <br>
+      Exciting Rewards • Daily Cashback • VIP Bonuses
+    </div>
+
+    <!-- SAME BUTTON LOGIC -->
+    <a class="pill" href="http://www.pinoy365.xyz/?r=sjx1551">
+🚀 Register na, may ₱1,000 ka agad!
+    </a>
+
+    <div class="timer">
+      <div class="cell"><div class="num" id="min">30</div><div class="lab">MIN</div></div>
+      <div class="cell"><div class="num" id="sec">00</div><div class="lab">SEC</div></div>
+    </div>
+
+    <div class="features">
+      <div class="feature-item">💰 1000+ Slot Games</div>
+      <div class="feature-item">🎁 Daily Cashback & Rewards</div>
+      <div class="feature-item">⚡ Fast Withdrawal</div>
+      <div class="feature-item">🏆 VIP Member Benefits</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="contact-section">
+  <h3>Need Landing Page or Meta Ads Setup?</h3>
+  <p style="font-size:14px;opacity:0.7;">
+    I create high-converting casino & gaming landing pages.
+  </p>
+  <a href="https://t.me/HORNETLIVE" target="_blank" class="contact-btn">
+    💬 MESSAGE NOW
+  </a>
+</div>
+
+</body>
+</html>
